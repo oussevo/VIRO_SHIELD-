@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse des Publications</title>
+    <link rel="stylesheet" href="/static/clone_X.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Accueil</h2>
+            <h2>Explorer</h2>
+            <h2>Notifications</h2>
+            <h2>Messages</h2>
+            <h2>Communautés</h2>
+            <h2>Profil</h2>
+            <h2>Plus</h2>
+        </div>
+
+        <div class="main-content">
+            <div class="publication-box">
+                <textarea id="publication" placeholder="Quoi de neuf ?"></textarea>
+                <button id="send-btn">Publier</button> <!-- Changement du bouton -->
+            </div>
+
+            <div id="response-container"></div> <!-- Ajouté pour afficher les réponses -->
+        </div>
+
+        <div id="popup" class="hidden">
+            <p id="popup-message"></p>
+            <button id="confirm-btn">Oui</button>
+            <button id="cancel-btn">Non</button>
+        </div>
+    </div>
+
+    <script src="/static/clone_X.js"></script>
+</body>
+</html>
